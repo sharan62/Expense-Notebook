@@ -172,7 +172,8 @@ function sub(cu){
 
 
 function store(){
-  if(localStorage.length==0){ alert("No Data")}
+  if(localStorage.length==0)
+  { alert("No Data")}
 
 let storedItems= JSON.parse(localStorage.getItem("arr"));
 
