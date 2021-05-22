@@ -172,10 +172,10 @@ function sub(cu){
 
 
 function store(){
-  // filterarr.length==0?alert("No Data") :console.log("store");
+  if(localStorage.length==0){ alert("No Data")}
 
 let storedItems= JSON.parse(localStorage.getItem("arr"));
-if(storedItems.length==0){ alert("No Data")}
+
 
 console.log("storedItems:", storedItems);
 for (i=0;i<storedItems.length;i++){
